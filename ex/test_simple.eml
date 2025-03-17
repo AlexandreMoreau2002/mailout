@@ -1,0 +1,37 @@
+From: "Fabrice Rosito" <f.rosito@mailout.com>
+To: user@rubis.com
+Subject: Example Email
+Date: Wed, 27 Sep 2024 15:23:34 +0200
+Message-ID: <CAK1W+Pyg3RvJ9YZMSR6dfPAnTj+5OCx+zXk5k6jYyLPQ6a@rubis.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="000000000000c87f930604e2568a"
+
+--000000000000c87f930604e2568a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Jane,
+
+This is a plain text version of the email content.
+
+Best regards,
+John Doe
+
+--000000000000c87f930604e2568a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Example</title>
+  </head>
+  <body>
+    <p>Hi Jane,</p>
+    <p>This is a <b>HTML</b> version of the email content.</p>
+    <p>Best regards,<br/>John Doe</p>
+  </body>
+</html>
+
+--000000000000c87f930604e2568a--

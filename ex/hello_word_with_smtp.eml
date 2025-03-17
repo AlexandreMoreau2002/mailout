@@ -1,0 +1,9 @@
+EHLO example.com
+MAIL FROM:<expediteur@example.com>
+RCPT TO:<destinataire@example.com>
+DATA
+Subject: Test SMTP
+
+Hello World
+.
+QUIT

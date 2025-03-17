@@ -1,0 +1,58 @@
+From: "John Doe" <john.doe@example.com>
+To: jane.doe@example.com, info@rubis.com
+Cc: manager@example.com
+Bcc: hidden@example.com
+Subject: Detailed Email Example with Attachments
+Date: Wed, 27 Sep 2024 16:45:00 +0200
+Message-ID: <CAK1W+Pyg3RvJ9YZMSR6dfPAnTj+5OCx+zXk5k6jYyLPQ6b@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="000000000000c87f930604e2568b"
+
+--000000000000c87f930604e2568b
+Content-Type: multipart/alternative; boundary="000000000000c87f930604e2568c"
+
+--000000000000c87f930604e2568c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Jane and Team,
+
+This is the plain text version of the email. It contains a brief overview of the content.
+
+Best regards,
+John Doe
+
+--000000000000c87f930604e2568c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Example</title>
+  </head>
+  <body>
+    <p>Hi Jane and Team,</p>
+    <p>This is the <b>HTML version</b> of the email. It contains a detailed description of the content.</p>
+    <p>Best regards,<br/>John Doe</p>
+  </body>
+</html>
+
+--000000000000c87f930604e2568c--
+
+--000000000000c87f930604e2568b
+Content-Type: text/csv; name="report.csv"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="report.csv"
+
+U29tZSBzYW1wbGUgZGF0YSwgZm9yIHRoZSByZXBvcnQuClZhbHVlMSxWYWx1ZTIKVmFsdWUzLFZhbHVlNAo=
+
+--000000000000c87f930604e2568b
+Content-Type: application/pdf; name="manual.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="manual.pdf"
+
+/9j/4AAQSkZJRgABAQEAAAAAAAD/4QCSRXhpZgAATU0AKgAAAAgAAAIBAAABAAAALgAAAAoAAAABAAcAAAEB
+AAEAAAABAAAIqAEB...
+
+--000000000000c87f930604e2568b--
