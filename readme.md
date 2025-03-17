@@ -6,13 +6,7 @@ Ce projet est un script Node.js permettant d'envoyer un email à partir d'un fic
 
 Assurez-vous d'avoir **Node.js** installé sur votre machine.
 
-1. Clonez le dépôt :
-   ```sh
-   git clone https://github.com/votre-utilisateur/mail.git
-   cd mail
-   ```
-
-2. Installez les dépendances :
+1. Installez les dépendances :
    ```sh
    npm install
    ```
@@ -39,12 +33,3 @@ Le fichier `exemple.eml` doit être présent dans le dossier du projet.
 - `mailparser`
 - `fs`
 - et d'autres listées dans `package.json`
-
-## Auteurs
-
-- **Votre Nom** - [Votre Profil GitHub](https://github.com/votre-utilisateur)
-
-## Licence
-
-Ce projet est sous licence ISC.
-
